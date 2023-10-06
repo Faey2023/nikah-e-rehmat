@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B: `ReferenceError: greetign is not defined`
 
-<i>Write your explanation here</i>
+<i>The let variable assigned is greeting. Whereas the consoled variable is greetign. There is a slight spelling mistake while re-declaring the variable. Thus is the output is not defined.</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C: `"12"`
 
-<i>Write your explanation here</i>
+<i>Adding a number and a string together will end up concatenating both variables and not adding. Which means if I add 2+"3" the answer will be 23 rather than being 5.  </i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A: `['🍕', '🍫', '🥑', '🍔']`
 
-<i>Write your explanation here</i>
+<i>Array assigned to food is ['🍕', '🍫', '🥑', '🍔']. So after consoling the answer will be the array assigned to food. Info and favorite food is not needed here. </i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B: `Hi there, undefined`
 
-<i>Write your explanation here</i>
+<i>Parameter passed from the function is not passed. So the output will be undefined.</i>
 
 </p>
 </details>
@@ -128,3 +128,4 @@ console.log(count);
 
 </p>
 </details>
+
