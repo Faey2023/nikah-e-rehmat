@@ -1,44 +1,66 @@
 [
   {
     "id": 1,
-    "name": "Venue Decoration",
-    "description": "Our Venue Decoration service is dedicated to transforming your wedding venue into a breathtaking and magical space that will leave a lasting impression on you and your guests. With a keen eye for detail and a passion for design, our team will work closely with you to bring your vision to life. Imagine walking into a space adorned with exquisite floral arrangements, elegant drapery, and soft lighting that sets the perfect mood for your special day. Whether you prefer a romantic, rustic, or modern ambiance, we have the expertise to create it. We use only the finest quality materials and flowers to ensure that every aspect of your decor is impeccable. From the entrance to the altar and the reception area, we'll design every corner of your venue to reflect your unique style and personality. Our Venue Decoration package includes a comprehensive range of decor elements, from table centerpieces to chair covers, ensuring that every detail is covered. Let us take care of the aesthetics so you can focus on enjoying your wedding day to the fullest. Your dream wedding venue is just a consultation away!",
-    "price": "$2,500",
-    "image": "venue_decoration.jpg"
+    "name": "Islamic Wedding Ceremony Guidance",
+    "description": "Our Islamic Ceremony Guidance service is dedicated to ensuring that your Islamic wedding ceremony is conducted with utmost reverence and adherence to tradition. Our experienced team will provide you with expert guidance on the essential Islamic rituals, from the sacred Nikah (marriage contract) to the joyful Walima (wedding feast). We understand the cultural and religious significance of each element and will help you create a ceremony that is spiritually meaningful and deeply personal.",
+    "price": "$1,500",
+    "image": "https://i.ibb.co/YfnpYHT/1.webp"
   },
   {
     "id": 2,
-    "name": "Catering",
-    "description": "Indulge your senses with our Catering service, where culinary artistry meets exceptional taste. We understand that food plays a central role in your wedding celebration, and our team of skilled chefs is dedicated to crafting a menu that delights your palate and those of your guests. Our diverse menu options span a wide range of cuisines and dietary preferences, ensuring that there's something for everyone. Whether you desire a lavish multi-course feast or a casual buffet-style meal, we can tailor our offerings to suit your preferences. We prioritize using fresh, locally-sourced ingredients to create dishes that burst with flavor and quality. From appetizers and entrees to decadent desserts, every bite will be a culinary adventure. Our professional catering staff takes care of every aspect of your dining experience, from setup to service. We provide not only delectable food but also impeccable presentation, ensuring that your guests are not only satisfied but also impressed. With our Catering service, you can savor your wedding day without worrying about the logistics of food preparation. Let us handle the gastronomic delights while you focus on creating cherished memories.",
-    "price": "$4,000",
-    "image": "catering.jpg"
+    "name": "Wedding Transportation",
+    "description": "Arriving in style and making a grand exit is an essential part of your wedding day. Our Wedding Transportation service offers a fleet of luxurious vehicles, including elegant limousines and timeless vintage cars. We understand the importance of making a lasting impression on your guests and ensuring that your journey is as special as the destination.",
+    "price": "Starting at $500",
+    "image": "https://i.ibb.co/s6gWR8X/2.jpg"
   },
   {
     "id": 3,
-    "name": "Photography",
-    "description": "Capturing the essence of your special day requires more than just a camera; it demands an artistic eye, precision, and a deep understanding of the emotions that unfold during a wedding. Our Photography service is dedicated to preserving these precious moments for eternity. Our team of professional photographers possesses the experience and creativity to document your wedding in a way that tells your unique love story. From candid shots that capture raw emotions to carefully composed portraits that radiate elegance, our photography transcends mere images. We believe in capturing the beauty of every detail, from the intricacies of your wedding attire to the genuine smiles of your loved ones. With a keen sense of timing and a dedication to perfection, we ensure that no fleeting moment goes unnoticed. We offer customizable photography packages to suit your needs, including pre-wedding shoots, engagement sessions, and full-day coverage. Each photograph is meticulously edited to bring out the best in every frame. With our Photography service, you can relive the magic of your wedding day through stunning visuals that evoke emotions and create timeless memories.",
-    "price": "$3,000",
-    "image": "photography.jpg"
+    "name": "Henna Artistry",
+    "description": "Elevate your wedding celebrations with the artistry of henna. Our Henna Artistry service features skilled henna artists who specialize in creating intricate and beautiful henna designs. Adorn your hands and feet with stunning patterns that add a touch of tradition and elegance to your bridal look.",
+    "price": "$300",
+    "image": "https://i.ibb.co/9HV0X0S/3.webp"
   },
   {
     "id": 4,
-    "name": "Entertainment",
-    "description": "Elevate your wedding celebration with our Entertainment service, where the sounds of music and the thrill of performance take center stage. We understand that a great wedding isn't just about the ceremony; it's also about the joyous festivities that follow. Our entertainment options are designed to keep the party going and create unforgettable moments. Whether you're looking for live music that sets the mood, a DJ who can spin your favorite tunes, or engaging performers who add a touch of magic to your event, we've got you covered. Our talented entertainers are seasoned professionals who know how to engage your guests and create an electric atmosphere. We work closely with you to curate a playlist that reflects your musical tastes and preferences. Our live performers bring energy and charisma to the stage, ensuring that everyone is on their feet, dancing the night away. In addition to music, we offer a variety of entertainment options, from photo booths that capture fun moments to magicians who mystify your guests. Our Entertainment service is all about infusing your wedding celebration with excitement and joy. With our Entertainment service, your wedding day will be a dynamic and unforgettable experience filled with laughter, dancing, and sheer delight.",
-    "price": "$2,800",
-    "image": "entertainment.jpg"
+    "name": "Islamic Calligraphy Decor",
+    "description": "Embrace the beauty of Islamic calligraphy in your wedding decor. Our Islamic Calligraphy Decor service creates stunning calligraphic art pieces and signage that reflect the elegance and spirituality of your special day.",
+    "price": "$600",
+    "image": "https://i.ibb.co/kDsz0R0/4.webp"
   },
   {
     "id": 5,
-    "name": "Flower Arrangements",
-    "description": "Elevate the ambiance of your wedding venue with our Flower Arrangements service. Flowers have the power to convey emotions, add elegance, and infuse natural beauty into any setting. Our expert florists are dedicated to creating stunning floral displays that leave a lasting impression on you and your guests. From breathtaking bouquets for the bridal party to elaborate centerpieces that adorn your reception tables, our floral arrangements are tailored to your style and theme. Whether you prefer classic roses, vibrant tropical blooms, or wildflower-inspired arrangements, we have the creativity and expertise to make it happen. We source the freshest and most exquisite flowers to ensure that every petal is a work of art. Our attention to detail extends to every aspect of floral design, from color coordination to vase selection. Our Flower Arrangements service goes beyond aesthetics; it's about enhancing the overall atmosphere of your wedding. Each bloom is carefully chosen to complement your decor and theme, creating a cohesive and enchanting environment that your guests will adore. With our Flower Arrangements service, you can expect nothing less than floral perfection for your special day.",
-    "price": "$1,800",
-    "image": "flower_arrangements.jpg"
+    "name": "Halal Catering",
+    "description": "Savor delicious Halal cuisine that adheres to Islamic dietary laws. Our Halal Catering service offers a diverse menu to cater to the culinary preferences of your guests.",
+    "price": "$4,500",
+    "image": "https://i.ibb.co/7Q4Th5w/5.jpg"
   },
   {
     "id": 6,
-    "name": "Wedding Planning",
-    "description": "Embark on your wedding planning journey with confidence, knowing that our Wedding Planning service is here to make your dream wedding a reality. Planning a wedding involves countless details, decisions, and timelines, and our team of experienced wedding planners is dedicated to guiding you every step of the way. We begin by getting to know you and your vision for the perfect wedding day. Whether you envision an intimate gathering or a grand celebration, we'll work tirelessly to bring your ideas to life while keeping your budget and timeline in mind. Our comprehensive wedding planning services encompass everything from venue selection and vendor coordination to budget management and day-of coordination. We've built strong relationships with trusted vendors in the industry, ensuring that you have access to the best in the business. With our meticulous attention to detail, we'll create a wedding day that reflects your unique love story. Whether you desire a traditional ceremony or a themed extravaganza, we'll handle all the logistics, leaving you free to enjoy the journey and the celebration itself. Your wedding day should be a stress-free and joyous occasion, and our Wedding Planning service is designed to make that a reality. Let us handle the planning so you can focus on creating beautiful memories that will last a lifetime.",
+    "name": "Wedding Khutbah Services",
+    "description": "Ensure the spiritual significance of your Islamic wedding with our Wedding Khutbah Services. Our experienced Islamic scholars and speakers specialize in delivering heartfelt and meaningful Khutbahs (sermons) that inspire and guide you and your guests on your wedding day. Our Khutbahs are tailored to the occasion, focusing on the sanctity of marriage, the importance of faith, and the journey of love and commitment. We understand the significance of this moment in your life and strive to make it spiritually enriching.",
+    "price": " Starting at $300",
+    "image": "https://i.ibb.co/vQTQf4j/6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Islamic Bridal Attire",
+    "description": "Discover exquisite Islamic bridal attire that combines tradition with modern elegance. Our collection includes stunning bridal gowns, hijabs, and accessories to make you look radiant on your special day.",
+    "price": "$2,200",
+    "image": "https://i.ibb.co/dGL7dQV/7.png"
+  },
+  {
+    "id": 8,
+    "name": "Islamic Wedding Planning",
+    "description": "Let us handle the intricate details of your Islamic wedding. Our Wedding Planning service is experienced in coordinating all aspects of Islamic weddings to create a seamless and memorable event.",
     "price": "$5,000",
-    "image": "wedding_planning.jpg"
+    "image": "https://i.ibb.co/TmXVLQN/8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Islamic Floral Arrangements",
+    "description": "Elevate the ambiance of your Islamic wedding with our exquisite Islamic Floral Arrangements. Our skilled florists specialize in creating stunning floral arrangements that reflect Islamic traditions and add a touch of natural beauty to your wedding decor. We carefully select flowers and greenery that hold significance in Islamic culture, creating arrangements that symbolize purity, love, and abundance. From elegant centerpieces to breathtaking aisle decorations, our floral designs will enchant your guests and enhance the sacred atmosphere of your wedding venue. Price: Customized to Your Needs Image: 'islamic_floral_arrangements.jpg'",
+    "price": "$1,200",
+    "image": "https://i.ibb.co/2nM9V4w/9.webp"
   }
 ]
+

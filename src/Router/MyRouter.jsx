@@ -6,6 +6,7 @@ import Home from "../Page/Home";
 import About from "../Page/About";
 import Login from "../Page/Login";
 import Register from "../Page/Register";
+import Services from "../Page/Services.jsx/Services";
 
 const MyRouter = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const MyRouter = createBrowserRouter([
       {
         path: "/login",
         element: <Login />,
+      },
+      {
+        path: "/services",
+        element: <Services />,
       },
     ],
   },

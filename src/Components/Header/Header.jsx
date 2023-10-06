@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <div>
       <section
-        className="hero min-h-[calc(100vh-60px)]"
+        className="hero min-h-[calc(100vh-60px)] mb-5"
         style={{
           backgroundImage: "url(https://i.ibb.co/MgHFqvD/2.jpg)",
         }}

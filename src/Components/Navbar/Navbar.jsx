@@ -24,22 +24,6 @@ const Navbar = () => {
         className={({ isActive }) =>
           isActive ? " text-red-600 underline" : ""
         }
-        to="/about"
-      >
-        About Us
-      </NavLink>
-      <NavLink
-        className={({ isActive }) =>
-          isActive ? " text-red-600 underline" : ""
-        }
-        to="/booking"
-      >
-        Booking
-      </NavLink>
-      <NavLink
-        className={({ isActive }) =>
-          isActive ? " text-red-600 underline" : ""
-        }
         to="/register"
       >
         Register
@@ -51,6 +35,14 @@ const Navbar = () => {
         to="/login"
       >
         Login
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive ? " text-red-600 underline" : ""
+        }
+        to="/about"
+      >
+        About Us
       </NavLink>
     </>
   );
