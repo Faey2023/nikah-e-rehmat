@@ -1,101 +1,102 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Gallery = () => {
+  AOS.init();
   return (
-    <div className="mb-6">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div className="grid gap-4">
-          <div>
+    <>
+      <section className=" my-5">
+        <h1 className="text-center text-4xl underline italic font-semibold my-5">
+          Featured images from our previous wedding events.
+        </h1>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <div data-aos="fade-left">
             <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://i.ibb.co/QJZGVqm/99.jpg"
+              className="h-full w-full rounded-lg"
+              src="https://i.ibb.co/Jct8DXV/11.jpg"
               alt=""
             />
           </div>
-          <div>
+          <div data-aos="fade-up">
             <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://i.ibb.co/4MWj28F/indian-wedding-dresses-3.jpg"
+              className="h-full w-full rounded-lg"
+              src="https://i.ibb.co/nj7V1nX/e15646e87b67282c936af6e7e414ddf0.jpg"
               alt=""
             />
           </div>
-          <div>
+          <div data-aos="fade-right">
             <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://i.ibb.co/jJWHQ6X/How-to-find-right-Indian-Wedding-Photographer-0028.jpg"
+              className="h-full w-full rounded-lg"
+              src="https://i.ibb.co/09JvH5W/b8ace3942d6f23f6a83ad384ce02a0b1.jpg"
+              alt=""
+            />
+          </div>
+          <div data-aos="fade-left">
+            <img
+              className="h-full w-full rounded-lg"
+              src="https://i.ibb.co/6wn24bt/6840acaad92327ed2e551385e355b97d.jpg"
+              alt=""
+            />
+          </div>
+          <div data-aos="fade-up">
+            <img
+              className="h-full w-full rounded-lg"
+              src="https://i.ibb.co/St7bkSj/8-2.webp"
+              alt=""
+            />
+          </div>
+          <div data-aos="fade-right">
+            <img
+              className="h-full w-full rounded-lg"
+              src="https://i.ibb.co/pZSzbmv/12.jpg"
+              alt=""
+            />
+          </div>
+          <div data-aos="fade-left">
+            <img
+              className="h-full w-full rounded-lg"
+              src="https://i.ibb.co/F4QnLVX/2.jpg"
+              alt=""
+            />
+          </div>
+          <div data-aos="fade-up">
+            <img
+              className="h-full w-full rounded-lg"
+              src="https://i.ibb.co/6gTJ1tC/3.jpg"
+              alt=""
+            />
+          </div>
+          <div data-aos="fade-right">
+            <img
+              className="h-full w-full rounded-lg"
+              src="https://i.ibb.co/6wBKrZF/5.jpg"
+              alt=""
+            />
+          </div>
+          <div data-aos="fade-left">
+            <img
+              className="h-full w-full rounded-lg"
+              src="https://i.ibb.co/gSZ9nwN/7.jpg"
+              alt=""
+            />
+          </div>
+          <div data-aos="fade-up">
+            <img
+              className="h-full w-full rounded-lg"
+              src="https://i.ibb.co/s9tmDWD/9.jpg"
+              alt=""
+            />
+          </div>
+          <div data-aos="fade-right">
+            <img
+              className="h-full w-full rounded-lg"
+              src="https://i.ibb.co/54rTYZH/10.jpg"
               alt=""
             />
           </div>
         </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://i.ibb.co/TWcTmkd/Indian-Wedding-Mehndi-Mountain-Top-Inn-and-Resort-scaled.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://i.ibb.co/7WMm3fd/sq-ea8c12ac4c2946738c7d6c3d9c45692f.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://i.ibb.co/54VbfgY/seated-bride-bridal-photoshoot-poses.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://i.ibb.co/HdPKGsr/indian-wedding-dresses-cashmere-boparai.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://i.ibb.co/yS9tGCf/weddingphotographer-weddings-by-divine-capture-coupleshot-26-15-399439-164417324439723.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://i.ibb.co/5cSh5Bp/1.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://i.ibb.co/WcKXHFg/Groom-and-Bride-shoot.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://i.ibb.co/JRYtZ66/indian-wedding-guest-attire-recirc-Bruno-Rezza-b61675f010f54e2a8e262af42194df8d.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://i.ibb.co/Bfwb1NT/5dc135c6d75eed8728d17a0494872161.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 };
 
