@@ -12,14 +12,14 @@ const Navbar = () => {
       >
         Home
       </NavLink>
-      <NavLink
+      {/* <NavLink
         className={({ isActive }) =>
           isActive ? " text-red-600 underline" : ""
         }
         to="/services"
       >
         Services
-      </NavLink>
+      </NavLink> */}
       <NavLink
         className={({ isActive }) =>
           isActive ? " text-red-600 underline" : ""

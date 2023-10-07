@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Islamic Wedding Ceremony Guidance",
     "description": "Our Islamic Ceremony Guidance service is dedicated to ensuring that your Islamic wedding ceremony is conducted with utmost reverence and adherence to tradition. Our experienced team will provide you with expert guidance on the essential Islamic rituals, from the sacred Nikah (marriage contract) to the joyful Walima (wedding feast). We understand the cultural and religious significance of each element and will help you create a ceremony that is spiritually meaningful and deeply personal.",
-    "price": "$1,500",
+    "price": "Starting at $1,500",
     "image": "https://i.ibb.co/YfnpYHT/1.webp"
   },
   {
@@ -17,21 +17,21 @@
     "id": 3,
     "name": "Henna Artistry",
     "description": "Elevate your wedding celebrations with the artistry of henna. Our Henna Artistry service features skilled henna artists who specialize in creating intricate and beautiful henna designs. Adorn your hands and feet with stunning patterns that add a touch of tradition and elegance to your bridal look.",
-    "price": "$300",
+    "price": "Starting at $300",
     "image": "https://i.ibb.co/9HV0X0S/3.webp"
   },
   {
     "id": 4,
     "name": "Islamic Calligraphy Decor",
     "description": "Embrace the beauty of Islamic calligraphy in your wedding decor. Our Islamic Calligraphy Decor service creates stunning calligraphic art pieces and signage that reflect the elegance and spirituality of your special day.",
-    "price": "$600",
+    "price": "Starting at $600",
     "image": "https://i.ibb.co/kDsz0R0/4.webp"
   },
   {
     "id": 5,
     "name": "Halal Catering",
     "description": "Savor delicious Halal cuisine that adheres to Islamic dietary laws. Our Halal Catering service offers a diverse menu to cater to the culinary preferences of your guests.",
-    "price": "$4,500",
+    "price": "Starting at $4,500",
     "image": "https://i.ibb.co/7Q4Th5w/5.jpg"
   },
   {
@@ -45,22 +45,21 @@
     "id": 7,
     "name": "Islamic Bridal Attire",
     "description": "Discover exquisite Islamic bridal attire that combines tradition with modern elegance. Our collection includes stunning bridal gowns, hijabs, and accessories to make you look radiant on your special day.",
-    "price": "$2,200",
+    "price": "Starting at $2,200",
     "image": "https://i.ibb.co/dGL7dQV/7.png"
   },
   {
     "id": 8,
     "name": "Islamic Wedding Planning",
     "description": "Let us handle the intricate details of your Islamic wedding. Our Wedding Planning service is experienced in coordinating all aspects of Islamic weddings to create a seamless and memorable event.",
-    "price": "$5,000",
+    "price": "Starting at $5,000",
     "image": "https://i.ibb.co/TmXVLQN/8.jpg"
   },
   {
     "id": 9,
     "name": "Islamic Floral Arrangements",
     "description": "Elevate the ambiance of your Islamic wedding with our exquisite Islamic Floral Arrangements. Our skilled florists specialize in creating stunning floral arrangements that reflect Islamic traditions and add a touch of natural beauty to your wedding decor. We carefully select flowers and greenery that hold significance in Islamic culture, creating arrangements that symbolize purity, love, and abundance. From elegant centerpieces to breathtaking aisle decorations, our floral designs will enchant your guests and enhance the sacred atmosphere of your wedding venue. Price: Customized to Your Needs Image: 'islamic_floral_arrangements.jpg'",
-    "price": "$1,200",
+    "price": "Starting at $1,200",
     "image": "https://i.ibb.co/2nM9V4w/9.webp"
   }
 ]
-

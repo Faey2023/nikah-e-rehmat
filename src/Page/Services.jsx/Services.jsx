@@ -9,6 +9,8 @@ const Services = () => {
       .then((res) => res.json())
       .then((data) => setEvents(data));
   }, []);
+
+  useEffect(() => {}, []);
   return (
     <div>
       <h1 className="text-center text-4xl underline italic font-semibold">
