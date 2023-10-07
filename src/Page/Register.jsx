@@ -21,7 +21,7 @@ const Register = () => {
 
     userRegister(email, password)
       .then((res) => {
-        toast.success("User created successfully.");
+        toast.success("User created successfully!!!");
       })
       .catch((err) => {
         toast.error(err.code);

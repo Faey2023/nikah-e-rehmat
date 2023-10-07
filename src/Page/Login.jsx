@@ -10,7 +10,7 @@ const Login = () => {
     const password = e.target.password.value;
     loginUser(email, password)
       .then((res) => {
-        toast.success("Login successfull");
+        toast.success("Login successfull!!!");
       })
       .catch((err) => {
         toast.error(err.code);
