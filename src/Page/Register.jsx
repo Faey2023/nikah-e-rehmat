@@ -13,11 +13,20 @@ const Register = () => {
     const name = e.target.name.value;
     const email = e.target.email.value;
     const password = e.target.password.value;
+    console.log(password);
 
-    // if (password.length < 6 || /[A-Z]/.password) {
-    //   toast("password isn not strong");
-    //   return;
-    // }
+    const special = /[!@#$%^&*()_+\-=\[\]{};:',.<>?~]/g;
+
+    if (password.length < 6) {
+      toast.error("Password should be 6 characters long.");
+      return;
+    } else if (!/[A-Z]/.test(password)) {
+      toast.error("Password should contain one Upper case character.");
+      return;
+    } else if (!special.test(password)) {
+      toast.error("Password should contain one special character.");
+      return;
+    }
 
     userRegister(email, password)
       .then((res) => {
