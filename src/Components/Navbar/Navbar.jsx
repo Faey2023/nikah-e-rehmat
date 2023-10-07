@@ -1,6 +1,8 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import UseAuth from "../../custom hooks/UseAuth";
 
 const Navbar = () => {
+  const { user, userSignOut } = UseAuth();
   // navlink
   const navLinks = (
     <>
@@ -12,14 +14,14 @@ const Navbar = () => {
       >
         Home
       </NavLink>
-      {/* <NavLink
+      <NavLink
         className={({ isActive }) =>
           isActive ? " text-red-600 underline" : ""
         }
-        to="/services"
+        to="/profile"
       >
-        Services
-      </NavLink> */}
+        Profile
+      </NavLink>
       <NavLink
         className={({ isActive }) =>
           isActive ? " text-red-600 underline" : ""
@@ -89,7 +91,32 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">SignUp</a>
+          {user ? (
+            <div className="dropdown dropdown-end">
+              <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                <div className="w-10 rounded-full">
+                  <img src={user?.photoURL} />
+                </div>
+              </label>
+              <ul
+                tabIndex={0}
+                className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+              >
+                <li>
+                  <Link className="justify-between" to="/profile">
+                    Profile
+                  </Link>
+                </li>
+                <li>
+                  <button onClick={userSignOut}>Logout</button>
+                </li>
+              </ul>
+            </div>
+          ) : (
+            <Link className="btn" to="/register">
+              Register
+            </Link>
+          )}
         </div>
       </div>
     </div>

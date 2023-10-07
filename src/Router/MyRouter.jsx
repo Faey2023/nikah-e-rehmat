@@ -7,6 +7,7 @@ import About from "../Page/About";
 import Login from "../Page/Login";
 import Register from "../Page/Register";
 import ServiceDetail from "../Page/Services.jsx/Details/ServiceDetail";
+import Profile from "../Page/Profile/Profile";
 
 const MyRouter = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const MyRouter = createBrowserRouter([
         path: "/event/:id",
         element: <ServiceDetail />,
         loader: () => fetch("/data/data.json"),
+      },
+      {
+        path: "/profile",
+        element: <Profile />,
       },
     ],
   },
