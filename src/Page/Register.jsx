@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import SocialButton from "../Components/Shared/SocialButton/SocialButton";
 import UseAuth from "../custom hooks/UseAuth";
-import { useState } from "react";
+
 import toast from "react-hot-toast";
 
 const Register = () => {

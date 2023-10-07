@@ -14,14 +14,7 @@ const Navbar = () => {
       >
         Home
       </NavLink>
-      <NavLink
-        className={({ isActive }) =>
-          isActive ? " text-red-600 underline" : ""
-        }
-        to="/profile"
-      >
-        Profile
-      </NavLink>
+      
       <NavLink
         className={({ isActive }) =>
           isActive ? " text-red-600 underline" : ""
@@ -45,6 +38,22 @@ const Navbar = () => {
         to="/about"
       >
         About Us
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive ? " text-red-600 underline" : ""
+        }
+        to="/profile"
+      >
+        Profile
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive ? " text-red-600 underline" : ""
+        }
+        to="/member"
+      >
+        Membership
       </NavLink>
     </>
   );

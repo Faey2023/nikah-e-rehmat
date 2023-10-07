@@ -8,6 +8,7 @@ import Login from "../Page/Login";
 import Register from "../Page/Register";
 import ServiceDetail from "../Page/Services.jsx/Details/ServiceDetail";
 import Profile from "../Page/Profile/Profile";
+import Membership from "../Page/Membership/Membership";
 
 const MyRouter = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const MyRouter = createBrowserRouter([
       {
         path: "/profile",
         element: <Profile />,
+      },
+      {
+        path: "/member",
+        element: <Membership />,
       },
     ],
   },
