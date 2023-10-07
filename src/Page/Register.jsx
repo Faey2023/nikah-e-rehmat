@@ -29,11 +29,12 @@ const Register = () => {
     }
 
     userRegister(email, password)
-      .then((res) => {
+      .then((response) => {
         toast.success("User created successfully!!!");
+        console.log(response.user);
       })
-      .catch((err) => {
-        toast.error(err.code);
+      .catch((error) => {
+        toast.error(error.code);
       });
   };
   return (

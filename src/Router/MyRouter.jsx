@@ -9,6 +9,7 @@ import Register from "../Page/Register";
 import ServiceDetail from "../Page/Services.jsx/Details/ServiceDetail";
 import Profile from "../Page/Profile/Profile";
 import Membership from "../Page/Membership/Membership";
+import PrivateRoute from "./Private/PrivateRoute";
 
 const MyRouter = createBrowserRouter([
   {
@@ -34,16 +35,28 @@ const MyRouter = createBrowserRouter([
       },
       {
         path: "/event/:id",
-        element: <ServiceDetail />,
+        element: (
+          <PrivateRoute>
+            <ServiceDetail />
+          </PrivateRoute>
+        ),
         loader: () => fetch("/data/data.json"),
       },
       {
         path: "/profile",
-        element: <Profile />,
+        element: (
+          <PrivateRoute>
+            <Profile />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/member",
-        element: <Membership />,
+        element: (
+          <PrivateRoute>
+            <Membership />
+          </PrivateRoute>
+        ),
       },
     ],
   },

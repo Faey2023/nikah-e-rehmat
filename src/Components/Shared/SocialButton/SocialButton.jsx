@@ -1,14 +1,23 @@
+import { useLocation, useNavigate } from "react-router-dom";
 import UseAuth from "../../../custom hooks/UseAuth";
+import toast from "react-hot-toast";
 
 const SocialButton = () => {
+  const currentLocation = useLocation();
+  const destinedLocation = useNavigate();
+  console.log(currentLocation);
+
   const { googleLogin } = UseAuth();
   const handleLogin = (data) => {
     data()
-      .then((res) => {
-        console.log(res.user);
+      .then((response) => {
+        toast.success("User created successfully!!!");
+        console.log(response.user);
+        // go to the route after login
+        destinedLocation(currentLocation?.state ? currentLocation.state : "/");
       })
-      .catch((err) => {
-        console.log(err.code);
+      .catch((error) => {
+        toast.error(error.code);
       });
   };
   return (
@@ -25,7 +34,7 @@ const SocialButton = () => {
             className=" w-[29px] h-[29px] rounded-full"
             src="https://i.ibb.co/dMy26rb/g.png"
           />
-          <p>SignUp with Google</p>
+          <p className="text-center mt-2">SignUp with Google</p>
         </div>
       </button>
     </div>

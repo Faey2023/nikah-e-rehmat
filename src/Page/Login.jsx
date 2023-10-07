@@ -1,19 +1,28 @@
 import toast from "react-hot-toast";
 import UseAuth from "../custom hooks/UseAuth";
+import SocialButton from "../Components/Shared/SocialButton/SocialButton";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Login = () => {
   const { loginUser } = UseAuth();
+  const currentLocation = useLocation();
+  const destinedLocation = useNavigate();
+  // console.log(location, "ekhane ami");
+
   const handleLogin = (e) => {
     e.preventDefault();
 
     const email = e.target.email.value;
     const password = e.target.password.value;
     loginUser(email, password)
-      .then((res) => {
-        toast.success("Login successfull!!!");
+      .then((response) => {
+        toast.success("Login successfully!!!");
+        console.log(response.user);
+        // go to the route after login
+        destinedLocation(currentLocation?.state ? currentLocation.state : "/");
       })
-      .catch((err) => {
-        toast.error(err.code);
+      .catch((error) => {
+        toast.error(error.code);
       });
   };
 
@@ -51,8 +60,9 @@ const Login = () => {
                 />
               </div>
               <div className="form-control mt-6">
-                <button className="btn btn-primary">Login</button>
+                <button className="btn btn-accent text-white">Login</button>
               </div>
+              <SocialButton />
             </form>
           </div>
         </div>
