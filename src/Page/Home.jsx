@@ -1,4 +1,5 @@
 import AosImages from "../Components/Aos/AosImages";
+import Faq from "../Components/FAQ/Faq";
 import Header from "../Components/Header/Header";
 import Gallery from "../Components/gallery/Gallery";
 import Services from "./Services.jsx/Services";
@@ -10,6 +11,7 @@ const Home = () => {
       <AosImages />
       <Services />
       <Gallery />
+      <Faq />
     </div>
   );
 };
