@@ -1,6 +1,6 @@
 const Membership = () => {
   return (
-    <div className=" my-5 grid grid-cols-4 gap-4">
+    <div className=" my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
       {/* basic  */}
       <div className="relative flex w-full   flex-col rounded-xl bg-gradient-to-tr from-red-600 to-red-400 bg-clip-border p-8 text-white shadow-md shadow-red-500/40">
         <div className="relative m-0 mb-8 overflow-hidden rounded-none border-b border-white/10 bg-transparent bg-clip-border pb-8 text-center text-gray-700 shadow-none">

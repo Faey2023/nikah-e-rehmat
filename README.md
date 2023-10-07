@@ -1,8 +1,12 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Website name and live site link
+Nikah-E-Rehmat <br>     
+http://nikah-e-rehmat.surge.sh/ <br> 
+https://nikah-e-rehmat.firebaseapp.com/
+# features
+1. Single Page Application (SPA).
+2. Light theme for better experience.
+3. All device responsive.
+4. Private routes for user only.
+5. Google authentication for passwordless signup using firebase authentication.
+6. Profile details for user.
+7. AOS animation on scroll.

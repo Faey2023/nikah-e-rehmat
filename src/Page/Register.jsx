@@ -13,7 +13,7 @@ const Register = () => {
     const name = e.target.name.value;
     const email = e.target.email.value;
     const password = e.target.password.value;
-    console.log(password);
+    // console.log(password);
 
     const special = /[!@#$%^&*()_+\-=\[\]{};:',.<>?~]/g;
 
