@@ -10,7 +10,7 @@ const Profile = () => {
         <h1 className="text-2xl text-center ">
           Hello
           <span className="ml-1">
-            {user?.displayName ? <span>{user?.displayName}</span> : "User"}
+            {user?.displayName ? <span className=" italic font-black text-rose-500">{user?.displayName}</span> : "User"}
           </span>
         </h1>
         <div className="w-20 mx-auto">

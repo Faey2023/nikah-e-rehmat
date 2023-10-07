@@ -45,7 +45,7 @@ sum(1, "2");
 
 #### Answer: C: `"12"`
 
-<i>Adding a number and a string together will end up concatenating both variables and not adding. Which means if I add 2+"3" the answer will be 23 rather than being 5.  </i>
+<i>Adding a number and a string together will end up concatenating both variables and not adding. Which means if I add 2+"3" the answer will be 23 rather than being 5. </i>
 
 </p>
 </details>
@@ -122,10 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C: 3
 
-<i>Write your explanation here</i>
+<i>Here the loop starts with checking if the value is truthy. First it goes to 0. As 0 is a falsy value the count remains 0. Then it goes to 1 which is truthy so the count increments to 1. Then it goes to 2 which is truthy so the count increments to 2. Then finally it goes to 3 which is truthy so the count increments to 3. </i>
 
 </p>
 </details>
-
