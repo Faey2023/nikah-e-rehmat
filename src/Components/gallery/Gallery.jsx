@@ -4,13 +4,13 @@ const Gallery = () => {
   AOS.init();
   return (
     <>
-      <section className=" my-5">
+      <section className=" max-w-7xl mx-auto my-5">
         <h1 className="text-center text-4xl underline italic font-semibold my-5">
           Featured images from our previous wedding events.
         </h1>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <div data-aos="fade-left">
+          <div data-aos="fade-down">
             <img
               className="h-full w-full rounded-lg"
               src="https://i.ibb.co/Jct8DXV/11.jpg"
@@ -24,35 +24,35 @@ const Gallery = () => {
               alt=""
             />
           </div>
-          <div data-aos="fade-right">
+          <div data-aos="fade-down">
             <img
               className="h-full w-full rounded-lg"
               src="https://i.ibb.co/09JvH5W/b8ace3942d6f23f6a83ad384ce02a0b1.jpg"
               alt=""
             />
           </div>
-          <div data-aos="fade-left">
+          <div data-aos="fade-up">
             <img
               className="h-full w-full rounded-lg"
               src="https://i.ibb.co/6wn24bt/6840acaad92327ed2e551385e355b97d.jpg"
               alt=""
             />
           </div>
-          <div data-aos="fade-up">
+          <div data-aos="fade-down">
             <img
               className="h-full w-full rounded-lg"
               src="https://i.ibb.co/St7bkSj/8-2.webp"
               alt=""
             />
           </div>
-          <div data-aos="fade-right">
+          <div data-aos="fade-up">
             <img
               className="h-full w-full rounded-lg"
               src="https://i.ibb.co/pZSzbmv/12.jpg"
               alt=""
             />
           </div>
-          <div data-aos="fade-left">
+          <div data-aos="fade-down">
             <img
               className="h-full w-full rounded-lg"
               src="https://i.ibb.co/F4QnLVX/2.jpg"
@@ -66,28 +66,28 @@ const Gallery = () => {
               alt=""
             />
           </div>
-          <div data-aos="fade-right">
+          <div data-aos="fade-down">
             <img
               className="h-full w-full rounded-lg"
               src="https://i.ibb.co/6wBKrZF/5.jpg"
               alt=""
             />
           </div>
-          <div data-aos="fade-left">
+          <div data-aos="fade-up">
             <img
               className="h-full w-full rounded-lg"
               src="https://i.ibb.co/gSZ9nwN/7.jpg"
               alt=""
             />
           </div>
-          <div data-aos="fade-up">
+          <div data-aos="fade-down">
             <img
               className="h-full w-full rounded-lg"
               src="https://i.ibb.co/s9tmDWD/9.jpg"
               alt=""
             />
           </div>
-          <div data-aos="fade-right">
+          <div data-aos="fade-up">
             <img
               className="h-full w-full rounded-lg"
               src="https://i.ibb.co/54rTYZH/10.jpg"
