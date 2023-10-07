@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const ServiceCard = ({ event }) => {
   const { name, image, description } = event || {};
   return (
