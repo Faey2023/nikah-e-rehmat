@@ -6,7 +6,7 @@ const About = () => {
       <h1 className="text-center text-4xl underline italic font-semibold">
         About Us
       </h1>
-      <div className=" hero-content grid-cols-3">
+      <div className=" hero-content grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
           <div className="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
             <img src="https://i.ibb.co/ZJYt3SY/ma.webp" alt="profile-picture" />
