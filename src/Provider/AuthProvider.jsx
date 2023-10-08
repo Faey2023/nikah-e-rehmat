@@ -7,6 +7,7 @@ import {
   signInWithEmailAndPassword,
   signInWithPopup,
   signOut,
+  updateProfile,
 } from "firebase/auth";
 import PropTypes from "prop-types";
 
@@ -51,8 +52,17 @@ const AuthProvider = ({ children }) => {
     onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
       setLoading(false);
+      
     });
   }, []);
+
+  const userProfile = (name, image) => {
+    setLoading(true);
+    return updateProfile(auth.currentUser, {
+      displayName: name,
+      photoURL: image,
+    });
+  };
 
   const authInfo = {
     loading,
@@ -61,6 +71,7 @@ const AuthProvider = ({ children }) => {
     loginUser,
     user,
     userSignOut,
+    userProfile,
   };
 
   return (

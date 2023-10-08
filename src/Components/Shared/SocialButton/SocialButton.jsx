@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 const SocialButton = () => {
   const currentLocation = useLocation();
   const destinedLocation = useNavigate();
-  console.log(currentLocation);
+  // console.log(currentLocation);
 
   const { googleLogin } = UseAuth();
   const handleLogin = (data) => {
