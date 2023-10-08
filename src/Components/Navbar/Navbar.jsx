@@ -3,7 +3,7 @@ import UseAuth from "../../custom hooks/UseAuth";
 
 const Navbar = () => {
   const { user, userSignOut } = UseAuth();
-  // navlink
+  // navlinks
   const navLinks = (
     <>
       <NavLink
@@ -100,8 +100,7 @@ const Navbar = () => {
                 className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
               >
                 <div className=" font-semibold border">
-                  <li>{user?.displayName}</li>
-                  <li>{user?.email}</li>
+                  <li>User name: {user?.displayName}</li>
                 </div>
                 <li>
                   <Link className="justify-between" to="/profile">
