@@ -5,7 +5,7 @@ const ServiceDetailCard = ({ event }) => {
   const { name, image, price, description } = event || {};
   //   console.log(event);
   const handleBooking = () => {
-    swal("Thanks for trusting us!!", "We Will soon contact you.", "success");
+    swal("Thanks for trusting us!!", "We will contact you soon.", "success");
   };
   return (
     <div>

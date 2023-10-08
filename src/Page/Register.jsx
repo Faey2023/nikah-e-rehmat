@@ -6,6 +6,7 @@ import toast from "react-hot-toast";
 
 const Register = () => {
   const { user, userRegister, userProfile } = UseAuth();
+ 
 
   console.log(user);
   const handleRegister = (e) => {
@@ -37,6 +38,7 @@ const Register = () => {
           .then((response) => {
             location.reload();
             toast.success("User Update successful!!!");
+            
           })
           .catch((error) => {
             toast.error(error.code);
