@@ -1,7 +1,7 @@
 import toast from "react-hot-toast";
 import UseAuth from "../custom hooks/UseAuth";
 import SocialButton from "../Components/Shared/SocialButton/SocialButton";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const Login = () => {
   const { loginUser } = UseAuth();
@@ -61,6 +61,15 @@ const Login = () => {
               </div>
               <div className="form-control mt-6">
                 <button className="btn btn-accent text-white">Login</button>
+                <p className="mt-4 block text-center font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
+                  Don&apos;t have an account?
+                  <Link
+                    className="font-medium text-red-500 transition-colors hover:text-blue-700"
+                    to="/register"
+                  >
+                    Register
+                  </Link>
+                </p>
               </div>
               <SocialButton />
             </form>

@@ -55,7 +55,7 @@ const AuthProvider = ({ children }) => {
       
     });
   }, []);
-
+//accessing profile information
   const userProfile = (name, image) => {
     setLoading(true);
     return updateProfile(auth.currentUser, {
