@@ -13,7 +13,7 @@ const Profile = () => {
             {user?.displayName ? <span className=" italic font-black text-rose-500">{user?.displayName}</span> : "User"}
           </span>
         </h1>
-        <div className="w-20 mx-auto">
+        <div className="w-40 mx-auto">
           {user.photoURL ? (
             <img
               className="rounded-full items-center"
