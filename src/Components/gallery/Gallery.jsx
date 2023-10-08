@@ -10,7 +10,11 @@ const Gallery = () => {
         </h1>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <div data-aos="flip-down">
+          <div
+            data-aos="flip-down"
+            data-aos-easing="linear"
+            data-aos-duration="3000"
+          >
             <img
               className="h-full w-full rounded-lg"
               src="https://i.ibb.co/Jct8DXV/11.jpg"
@@ -31,7 +35,7 @@ const Gallery = () => {
           <div
             data-aos="flip-down"
             data-aos-easing="linear"
-            data-aos-duration="1500"
+            data-aos-duration="3000"
           >
             <img
               className="h-full w-full rounded-lg"
@@ -53,7 +57,7 @@ const Gallery = () => {
           <div
             data-aos="flip-down"
             data-aos-easing="linear"
-            data-aos-duration="1500"
+            data-aos-duration="3000"
           >
             <img
               className="h-full w-full rounded-lg"
@@ -75,7 +79,7 @@ const Gallery = () => {
           <div
             data-aos="flip-down"
             data-aos-easing="linear"
-            data-aos-duration="1500"
+            data-aos-duration="3000"
           >
             <img
               className="h-full w-full rounded-lg"
@@ -97,7 +101,7 @@ const Gallery = () => {
           <div
             data-aos="flip-down"
             data-aos-easing="linear"
-            data-aos-duration="1500"
+            data-aos-duration="3000"
           >
             <img
               className="h-full w-full rounded-lg"
@@ -119,7 +123,7 @@ const Gallery = () => {
           <div
             data-aos="flip-down"
             data-aos-easing="linear"
-            data-aos-duration="1500"
+            data-aos-duration="3000"
           >
             <img
               className="h-full w-full rounded-lg"
