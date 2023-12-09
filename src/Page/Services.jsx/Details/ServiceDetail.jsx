@@ -3,7 +3,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import ServiceDetailCard from "./ServiceDetailCard";
 
 const ServiceDetail = () => {
-  // const { id, name, image, price, description } = event || {};
+
   const [event, setEvent] = useState({});
   const events = useLoaderData();
   const { id } = useParams();
